@@ -1,0 +1,74 @@
+*{
+    background-color: rgb(151, 151, 168);
+}
+
+.titleContainer{
+    border: solid;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 40%;
+    font-size: 5em;
+}
+
+
+.mainArea{
+    display: flex;
+    border: blue solid;
+    margin-top: 5em;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.boardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid red;
+    border-style:dashed;
+    height: 25em;
+    width: 20em;
+    text-align: center;
+    background-color: cyan;
+    justify-content: space-evenly;
+}
+
+
+.divRepeat{
+    background-color: white;
+    border: solid black;
+    
+    
+}
+
+.sliderAndColorContainer{
+    background-color: coral;
+    border: darkgreen solid;
+    width: 25em;
+}
+
+.slideContainer{
+    font-size: larger;
+    color:blue;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid yellow;
+}
+
+.slider{
+    width: 100%;
+    background: red;
+    opacity: 0.5;
+}
+
+.slider:hover{
+    opacity: 1;
+}
+
+.sliderValueDiv{
+    border: chocolate solid;
+    text-align: center;
+    width: 100%;
+}
