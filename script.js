@@ -29,11 +29,17 @@ sliderValue.oninput = function boardDiveUpdate() {
 
 
 
-   // need a clear board function
-
-
    function clearBoard(){
     const boardContainer = document.getElementById("boardContainer")
     boardContainer.innerText = "";
 
    }
+
+/*TO DO:
+
+Must add the following features:
+   - Function: Calculate the div size based on the size of the board
+   - Function: add event handler for hovering
+   - add buttons/selections for different coloring
+   - clear board button
+   
