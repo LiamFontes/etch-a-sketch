@@ -27,19 +27,15 @@
     flex-wrap: wrap;
     border: solid red;
     border-style:dashed;
-    height: 25em;
-    width: 20em;
-    text-align: center;
+    height: 30em;
+    width: 30em;
     background-color: cyan;
-    justify-content: space-evenly;
+    
 }
 
 
 .divRepeat{
     background-color: white;
-    border: solid black;
-    
-    
 }
 
 .sliderAndColorContainer{
@@ -55,6 +51,7 @@
     flex-direction: column;
     width: 100%;
     border: solid yellow;
+    text-align: center;
 }
 
 .slider{
@@ -71,4 +68,9 @@
     border: chocolate solid;
     text-align: center;
     width: 100%;
+}
+
+.clearButton{
+    background-color: white;
+
 }
